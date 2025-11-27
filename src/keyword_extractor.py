@@ -1,5 +1,5 @@
 """
-Keyword and N-gram Extraction Module
+Keyword and N-gram Extraction Modules
 
 This module extracts keywords and phrases using:
 - TF-IDF (1- to 3-grams)

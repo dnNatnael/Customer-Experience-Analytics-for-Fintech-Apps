@@ -15,7 +15,7 @@ import re
 class ThemeAnalyzer:
     """Analyze themes from keywords and reviews."""
     
-    # Theme keyword mappings (can be customized)
+    # Theme keyword mappings (It can be customized)
     THEME_KEYWORDS = {
         'Account Access Issues': {
             'keywords': ['login', 'password', 'otp', 'verification', 'access', 'unlock', 'locked', 

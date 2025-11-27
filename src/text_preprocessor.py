@@ -15,7 +15,7 @@ from typing import List, Tuple
 import pandas as pd
 from collections import Counter
 
-# Load spaCy model (English)
+# Load spaCy model (English Language)
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:

@@ -1,5 +1,5 @@
 """
-Generate comprehensive Task 2 report with analysis results.
+Generate comprehensive report with analysis results.
 """
 
 import sys

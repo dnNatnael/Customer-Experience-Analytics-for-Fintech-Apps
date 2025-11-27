@@ -1,5 +1,5 @@
 """
-Task 2: Sentiment and Thematic Analysis
+ Sentiment and Thematic Analysis
 
 Main script to perform comprehensive sentiment analysis and thematic analysis
 on banking app reviews.
