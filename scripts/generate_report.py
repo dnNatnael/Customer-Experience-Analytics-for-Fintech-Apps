@@ -14,10 +14,10 @@ sys.path.insert(0, str(Path(__file__).parent.parent / 'src'))
 from theme_analyzer import ThemeAnalyzer
 
 
-def load_results(csv_path: str = 'data/processed/task2_sentiment_analysis_results.csv'):
+def load_results(csv_path: str = 'data/processed/sentiment_analysis_results.csv'):
     """Load analysis results."""
     if not os.path.exists(csv_path):
-        raise FileNotFoundError(f"Results file not found: {csv_path}. Please run task2_sentiment_analysis.py first.")
+        raise FileNotFoundError(f"Results file not found: {csv_path}. Please run sentiment_analysis.py first.")
     
     return pd.read_csv(csv_path)
 

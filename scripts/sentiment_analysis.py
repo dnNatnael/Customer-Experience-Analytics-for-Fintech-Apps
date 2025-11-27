@@ -159,7 +159,7 @@ def main():
     })
     
     # Save to CSV
-    output_path = 'data/processed/task2_sentiment_analysis_results.csv'
+    output_path = 'data/processed/sentiment_analysis_results.csv'
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     output_df.to_csv(output_path, index=False)
     print(f"✓ Saved results to {output_path}")
@@ -230,7 +230,7 @@ def main():
     print("ANALYSIS COMPLETE!")
     print("=" * 80)
     print(f"\nOutput saved to: {output_path}")
-    print(f"\nNext step: Generate detailed report using generate_report.py")
+    print(f"\nNext step: Generate detailed report using scripts/generate_report.py")
     
     return df, theme_analysis, keywords_by_bank
 
